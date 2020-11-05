@@ -64,6 +64,15 @@ body{
   
     }
 
+    nav ul{
+      line-height: 20px;
+      text-transform: lowercase;
+    }
+
+    .current{
+      text-transform: uppercase;
+    }
+
 /*GALLERY*/
 .gallery{
   display: flex;
