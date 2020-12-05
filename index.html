@@ -14,13 +14,17 @@
             <a href = "#main">Skip to Main Content</a>
         </div>
 
+        <header>
+          <img src="images/logo.png" alt="logo" id = "logo">
+        </header>
+
         <nav>
-            <ul class = "navbar">
-                <li><a href="index.html" class="current">Home</a></li> 
-                <li><a href="clothing.html">Clothing</a></li>
-                <li><a href="decor.html">Decor</a></li>
-                <li><a href="photography.html">Photography</a></li>
-            </ul>
+          <ul class = "navbar">
+              <li><a href="index.html">Home</a></li> 
+              <li><a href="clothing.html" class="current">Clothing</a></li>
+              <li><a href="decor.html">Decor</a></li>
+              <li><a href="photography.html">Photography</a></li>
+          </ul>
         </nav>
 
         <div id="main" class="index-head">
@@ -38,6 +42,30 @@
             <img id="image1" src="images/index1.jpg" alt=""/>
         </div>
 
+        <div class="container">
+            <div style="text-align:center">
+              <h3>Get in Touch</h3>
+              <p>Are you a minimalist or are you inspired by the lifestyle? Leave me a message!</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="images/contact.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email address..">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="What's up.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
 
         <footer>
             Alexa Solomon | alexasol@umich.edu | 248-882-3607 | Ann Arbor, MI
@@ -45,5 +73,3 @@
     </main>
 </body>
 </html>
-
-
