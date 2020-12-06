@@ -24,6 +24,7 @@ body{
 
   h3{
     color: #444C4E;
+    text-align: center;
   }
 
   p{
@@ -210,6 +211,8 @@ header{
   height: 300px;
   border: 7px solid #444C4E;
   perspective: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* This container is needed to position the front and back side */
