@@ -149,7 +149,6 @@ input[type=submit]:hover {
 } 
 
 /*LOGO AND ANIMATION*/
-
 header{
   background: #F8F8FF;
   display: flex;
@@ -158,34 +157,31 @@ header{
   flex-direction: column;
 }
 
-#logo{
-  animation-duration: 5s;
-  /* animation-iteration-count: 1; */
-  animation-name: logo_wiggle;
+@-webkit-keyframes logo_grow{
+  from {width:30px;}
+  to {width:220px;}
 }
 
-@-webkit-keyframes logo_wiggle{
-  from {width: 10px;
-    height: auto;}
-  to {width: 40px;
-    height: auto;}
-}
-
-@keyframes logo_wiggle{
-  from {width: 10px;
-    height: auto;}
-  to {width: 40px;
-    height: auto;}
+@keyframes logo_grow{
+  from {width:30px;}
+  to {width:220px;}
 } 
+
+#logo{
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: logo_grow;
+}
 
 @media (prefers-reduced-motion) {
   #logo {
     animation: none;
     height: auto;
-    width: 40px;
+    width: 220px;
     -webkit-animation: none;
   }
 }
+
 
 /* Parallax on Decor Page */
 .parallax {
@@ -205,7 +201,6 @@ header{
 
 
 /* Flip Card on Photography Page */
-
 .flip-card {
   background-color: transparent;
   width: 300px;
