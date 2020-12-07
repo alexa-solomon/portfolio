@@ -43,9 +43,9 @@ body{
 /* NAVIGATION */
 
   .navbar li{  
-    width: 20%;
+    width: 31%;
     border: 2px solid #F8F8FF;
-    font-size: 50%;
+    font-size: 56%;
     padding: 1% 2%;
     border-radius: 10px;
     text-align: center;
